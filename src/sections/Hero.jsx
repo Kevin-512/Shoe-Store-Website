@@ -33,8 +33,8 @@ const Hero = () => {
         <Button label={"Shop Now"} icon={<FaArrowRight />} />
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
-          {statistics.map((stat) => (
-            <div key={stat.label}>
+          {statistics.map((stat, index) => (
+            <div key={index}>
               <p className="text-4xl font-palanquin font-bold">
                 <CountUp end={stat.value} duration={5} />+
               </p>
@@ -53,8 +53,8 @@ const Hero = () => {
           className="object-contain relative z-10"
         />
         <div className="flex sm:gap-6 gap-4 absolute -bottom-[10%] sm:left-[10%] xl:-bottom-0 xl:pb-4">
-          {shoes.map((shoe) => (
-            <div key={shoe}>
+          {shoes.map((shoe, index) => (
+            <div key={index}>
               <ShoeCard
                 imgURL={shoe}
                 changeBigShoeImage={(shoe) => setBigShoeImg(shoe)}

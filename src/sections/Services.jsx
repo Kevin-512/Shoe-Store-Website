@@ -1,6 +1,5 @@
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../constants";
-// import { FaHandHoldingHeart, FaShieldAlt, FaTruck } from "react-icons/fa";
 
 const Services = () => {
   return (

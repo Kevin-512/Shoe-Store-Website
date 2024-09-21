@@ -8,6 +8,8 @@ import {
 } from "../assets/images";
 
 import { FaHandHoldingHeart, FaShieldAlt, FaTruck } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
@@ -79,21 +81,6 @@ export const services = [
   },
 ];
 
-// export const reviews = [
-//     {
-//         imgURL: customer1,
-//         customerName: 'Morich Brown',
-//         rating: 4.5,
-//         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
-//     },
-//     {
-//         imgURL: customer2,
-//         customerName: 'Lota Mongeskar',
-//         rating: 4.5,
-//         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-//     }
-// ];
-
 export const footerLinks = [
   {
     title: "Products",
@@ -125,8 +112,8 @@ export const footerLinks = [
   },
 ];
 
-// export const socialMedia = [
-//     { src: facebook, alt: "facebook logo" },
-//     { src: twitter, alt: "twitter logo" },
-//     { src: instagram, alt: "instagram logo" },
-// ];
+export const socialMedia = [
+  { icon: FaFacebook, alt: "facebook logo" },
+  { icon: FaSquareXTwitter, alt: "x logo" },
+  { icon: FaInstagram, alt: "instagram logo" },
+];
