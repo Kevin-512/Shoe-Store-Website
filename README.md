@@ -1,8 +1,20 @@
-# React + Vite
+# Shoe Store Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/user-attachments/assets/0f13df10-cc29-44dc-9c7e-c8ec5f57c18e)
 
-Currently, two official plugins are available:
+# About
+This project is a shoe store website developed with the purpose of showcasing an ideal customer landing page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Project Setup
+## Prerequisites
+* [NodeJS](https://nodejs.org/en): Runtime environment
+
+## Installation
+1. Clone the repository
+```
+git clone https://github.com/Kevin-512/Shoe-Store-Website.git
+```
+2. Run the application
+```
+npm run dev
+```
