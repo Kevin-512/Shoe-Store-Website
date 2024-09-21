@@ -22,8 +22,12 @@ export default {
         primary: "#ECEEFF",
         "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
+        "forest-green": "#08392B",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
+        "gravel": "#c1d3e6",
+        "orange": "#F6A21E",
+        "red-orange": "#E55B13"
       },
       boxShadow: {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
