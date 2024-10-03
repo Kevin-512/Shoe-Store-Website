@@ -32,7 +32,7 @@ const Hero = () => {
         </p>
         <Button label={"Shop Now"} icon={<FaArrowRight />} />
 
-        <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
+        {/* <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat, index) => (
             <div key={index}>
               <p className="text-4xl font-palanquin font-bold">
@@ -41,7 +41,7 @@ const Hero = () => {
               <p>{stat.label}</p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
 
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-orange bg-card bg-cover">
